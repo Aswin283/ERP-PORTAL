@@ -1,0 +1,40 @@
+            body {
+                font-family:verdana,arial,sans-serif;
+                font-size:11pt;
+                font-color:white;
+                background-color:white;
+            }
+            table {
+                font-family:verdana,arial,sans-serif;
+                font-size:11pt;
+                font-color:white;
+            }
+            td.infohead:hover{
+                font-weight:bold;
+                text-align: left;
+                background-color:#3afff5;
+                cursor:pointer ;
+                color:#ffffff;
+                -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 5px;
+                -moz-border-radius-bottomright: 10px;
+            }
+
+            td.infohead{
+                font-weight:bold;
+                text-align: left;
+                font-family:Tahoma;
+                background-color:#0072dd;
+                color:#ffffff;
+                padding:10px;
+                -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px;
+                -moz-border-radius-bottomright: 10px;
+            }
+
+            td.infoheaddisabled{
+                font-weight:bold;
+                font-family:Tahoma;
+                background-color:#DCDCDC;
+                color:#ffffff;
+                -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 5px;
+                -moz-border-radius-bottomright: 10px;
+            }
